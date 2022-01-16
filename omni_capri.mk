@@ -14,12 +14,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/motorola/capri/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := capri
-PRODUCT_NAME := omni_capri
+PRODUCT_NAME := twrp_capri
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(10)
 PRODUCT_MANUFACTURER := motorola
