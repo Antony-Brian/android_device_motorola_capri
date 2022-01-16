@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_capri.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_capri-user \
-    omni_capri-userdebug \
-    omni_capri-eng
+    twrp_capri-user \
+    twrp_capri-userdebug \
+    twrp_capri-eng
